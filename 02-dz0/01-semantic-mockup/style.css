@@ -26,9 +26,9 @@
 
 }
 
-
 .footer {
     background-color: #bc8cfa;
+    margin: 0; 
 }
 
 .footer__title {
