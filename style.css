@@ -1,0 +1,33 @@
+.header__title {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    line-height: 64px;
+    font-weight: 500;
+}
+
+.main { 
+    width: 1440px;
+    height: 1036px;
+    left: 0px;
+    top: 237px;
+    background: #F9FAFC;
+}
+
+.footer__header {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.footer__text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
