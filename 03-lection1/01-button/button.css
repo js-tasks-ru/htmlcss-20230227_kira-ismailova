@@ -7,21 +7,21 @@
     font-size: 16px;
     line-height: 19px;
     padding: 15px 66px 14px 66px;
-    max-height: 48px;
+    height: 48px;
     cursor: pointer;
 }
 
 .button_primary {
-    background: #4263EB;
+    background: var(--blue-2);
     color: #fff;   
 }
 
 .button_primary:hover {
-    background: #2342C0;
+    background: var(--blue-3);
 }
 
 .button_primary:active {
-    box-shadow: 6px 3px 3px gray;
+    background: var(--blue-3);
 }
 
 .button:disabled {
@@ -30,21 +30,21 @@
 }
 
 .button_secondary {
-    background: #7048E8;
+    background: var(--purple);
     color: #fff;
 }
 
 .button_secondary:hover {
-    background: #5028C6;
+    background: var(--purple-2);
 }
 
 .button_secondary:active {
-    box-shadow: 6px 3px 3px gray;
+    background: var(--purple-2);
 }
 
 .button_alternate {
-    background: #fff;
-    border: 1px solid #ACB5BD;
+    background: var(--white-2);
+    border: 1px solid var(--grey-3);
 }
 
 .button_alternate:hover {
@@ -52,5 +52,5 @@
 }
 
 .button_alternate:active {
-    box-shadow: 6px 3px 3px gray;
+    border: 1px solid #212429;
 }
