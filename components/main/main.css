@@ -1,5 +1,21 @@
 .main { 
     width: 1440px;
     height: 1036px;
-    background: #F9FAFC;
+    background: var(--white-2);
+}
+
+.main__container {
+    padding-top: 68px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main__card {
+    width: 350px;
+    height: 367px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
 }
