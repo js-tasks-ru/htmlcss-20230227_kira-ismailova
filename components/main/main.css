@@ -4,8 +4,11 @@
     background: var(--white-2);
 }
 
-.main__container {
+.container {
     padding-top: 68px;
+
+}
+.main__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
