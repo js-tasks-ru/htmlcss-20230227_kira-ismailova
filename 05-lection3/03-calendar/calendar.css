@@ -5,15 +5,15 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #334D6E;
+    color: var(--blue-4);
     text-align: center;
 }
 
 .calendar {
     display: inline-grid;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
-    background: #FFFFFF;
+    background: var(--white);
 }
 
 .calendar__days, 
@@ -34,7 +34,7 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    color: #90A0B7;
+    color: var(--grey-5);
 }
 
 .calendar__number {
@@ -45,11 +45,11 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-    color: #334D6E;
+    color: var(--blue-4);
 }
 
 .calendar__blue {
-    background: #4263EB;
+    background: var(--blue-2);
 }
 
 .calendar__lightblue {
