@@ -1,5 +1,4 @@
 .calendar__title {
-    padding-top: 28px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -14,21 +13,21 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     background: var(--white);
+    padding: 24px;
 }
 
-.calendar__days, 
-.calendar__number {
+.calendar__numbers, 
+.calendar__days {
     display: grid;
-    text-align: right;
-    grid-template-columns: repeat(7, 30px);
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
 }
 
-.calendar__number div:first-child {
+.calendar__days .calendar__day_week-day:first-child {
     grid-column: 5;
 }
 
-.calendar__days {
-    padding: 24px 24px 0px 24px;
+.calendar__numbers {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -37,8 +36,7 @@
     color: var(--grey-5);
 }
 
-.calendar__number {
-    padding: 24px;
+.calendar__days {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -46,12 +44,14 @@
     line-height: 20px;
     text-align: center;
     color: var(--blue-4);
+    padding-top: 8px;
 }
 
-.calendar__blue {
+.calendar__day_start,
+.calendar__day_end {
     background: var(--blue-2);
 }
 
-.calendar__lightblue {
+.calendar__day_between {
     background: rgba(160,177,245, 0.2);
 }
