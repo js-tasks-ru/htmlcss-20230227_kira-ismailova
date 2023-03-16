@@ -1,0 +1,57 @@
+.calendar__title {
+    padding-top: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    text-align: center;
+}
+
+.calendar {
+    display: inline-grid;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+.calendar__days, 
+.calendar__number {
+    display: grid;
+    text-align: right;
+    grid-template-columns: repeat(7, 30px);
+}
+
+.calendar__number div:first-child {
+    grid-column: 5;
+}
+
+.calendar__days {
+    padding: 24px 24px 0px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #90A0B7;
+}
+
+.calendar__number {
+    padding: 24px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #334D6E;
+}
+
+.calendar__blue {
+    background: #4263EB;
+}
+
+.calendar__lightblue {
+    background: rgba(160,177,245, 0.2);
+}
