@@ -3,7 +3,6 @@
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    max-width: 354px;
     font-family: 'Inter';
     font-style: normal;
     line-height: 24px;
@@ -37,8 +36,7 @@
 
 .histogram__items {
     height: 50px;
-        display: flex;
-    justify-content: center;
+    display: flex;
     align-items: flex-end;
 }
 
