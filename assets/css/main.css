@@ -1,14 +1,15 @@
 @import '../fonts/fonts.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Roboto:wght@500&family=Source+Sans+Pro:ital@0;1&display=swap');
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
+    --white-2: #F9FAFC;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purple-light: #4263EB;
     --blue: #374FC7;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
@@ -27,8 +28,4 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
 }
