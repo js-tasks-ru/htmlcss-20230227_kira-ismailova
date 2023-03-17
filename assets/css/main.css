@@ -16,8 +16,10 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
     --blue-2: #4263EB;
     --blue-3: #2342C0;
+    --blue-4: #334D6E;
     --purple-2: #5028C6;
     --white-2: #fff;
 
@@ -26,8 +28,4 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
 }
