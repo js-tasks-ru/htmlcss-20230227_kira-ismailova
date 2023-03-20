@@ -3,8 +3,6 @@
     font-style: normal;
     position: relative;
     transform: translate(65%, 50%);
-    width: 500px;
-    height: 500px;
     background-color: var(--grey-5);
     width: 508px;
     height: 381px;
@@ -12,12 +10,11 @@
     
     .wrapper__container {
     padding: 30px 40px 30px 40px;
-    box-sizing: border-box;
     position: absolute;
     top: 40px;
     left: 40px;
     right: 40px;
-    bottom: 47px;
+    bottom: 33px;
     background: var(--white);
     }
 
@@ -25,9 +22,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    display: flex;
-    align-items: flex-end;
-    color: #334D6E;
+    color: var(--darkgrey);
     }
 
     .wrapper__text {
