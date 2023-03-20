@@ -2,6 +2,7 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/button/button.css';
 
 :root {
     --white: #ffffff;
@@ -14,6 +15,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #C4C4C4;
     --blue-2: #4263EB;
     --blue-3: #2342C0;
     --purple-2: #5028C6;

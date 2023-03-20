@@ -1,0 +1,44 @@
+.wrapper {
+    font-family: 'Inter';
+    font-style: normal;
+    position: relative;
+    transform: translate(65%, 50%);
+    width: 500px;
+    height: 500px;
+    background-color: var(--grey-5);
+    width: 508px;
+    height: 381px;
+    }
+    
+    .wrapper__container {
+    padding: 30px 40px 30px 40px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 47px;
+    background: var(--white);
+    }
+
+    .wrapper__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #334D6E;
+    }
+
+    .wrapper__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+    }
+
+    .wrapper__cross {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    }
