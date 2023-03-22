@@ -1,14 +1,15 @@
-.wrapper {
+.modal {
     font-family: 'Inter';
     font-style: normal;
-    position: relative;
-    transform: translate(65%, 50%);
-    background-color: var(--grey-5);
-    width: 508px;
-    height: 381px;
+    position: fixed;
+    transform: translate(30%, 20%);
+    background-color: rgba(196, 196, 196, 0.5);
+    min-width: 100vw;
+    height: 100vh;
+    display: none;
     }
     
-    .wrapper__container {
+    .modal__container {
     padding: 30px 40px 30px 40px;
     position: absolute;
     top: 40px;
@@ -16,23 +17,24 @@
     right: 40px;
     bottom: 33px;
     background: var(--white);
+    border-radius: 8px;
     }
 
-    .wrapper__title {
+    .modal__title {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: var(--darkgrey);
     }
 
-    .wrapper__text {
+    .modal__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #495057;
     }
 
-    .wrapper__cross {
+    .modal__cross {
     position: absolute;
     right: 15px;
     top: 15px;
