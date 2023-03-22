@@ -1,8 +1,8 @@
 .avatar {
     display: inline-block;
     background: var(--white);
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 8px;
+    width: 164px; 
+    height: 164px;
 }
 
 .avatar__wrapper {
@@ -14,7 +14,8 @@
 .avatar__image {
     object-fit: cover;
     width: 100%; 
-    height: auto;
+    height: 100%;
+    border-radius: 50%; 
 }
 
 .avatar__title {
