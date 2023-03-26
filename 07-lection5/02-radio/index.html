@@ -6,6 +6,31 @@
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <div class="wrapper">
+            <label class="radio">
+                <input class="radio__input" type="radio" name="example" value="option1">
+                <span class="radio__text">Default</span>
+            </label>
+            
+            <label class="radio">
+                <svg class="radio__contur" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1" width="26" height="26" rx="13" stroke="#4263EB" stroke-width="2"/>
+                    </svg>
 
+                    <svg class="radio__state" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>
+                        
+                <input class="radio__input radio__input-check" type="radio" name="example" value="option2">
+                <span class="radio__text">Selected</span>
+            </label>
+            
+            <label class="radio">
+                <svg class="radio__background" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="28" height="28" rx="14" fill="#DDE2E5"/>
+                    </svg>
+                <input class="radio__input radio__input-dis" type="radio" name="example" value="option2">
+                <span class="radio__text radio__text-dis">Disabled</span>
+            </label>
     </body>
 </html>

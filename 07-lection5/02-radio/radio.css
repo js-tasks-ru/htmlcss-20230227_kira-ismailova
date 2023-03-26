@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    margin-bottom: 16px;
+}
+
+.radio__input {
+    transform: scale(2.1);
+    margin-right: 12px;
+}
+
+.radio__input:checked + label {
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
+
+.radio__input-check {
+    position: relative;
+}
+
+.radio__contur {
+    position: absolute;
+    top: 47.5px;
+    left: 1.7px;
+}
+
+.radio__state {
+    z-index: 3;
+    position: absolute;
+    top: 53px;
+    left: 7px;
+}
+
+.radio__input-dis {
+    position: relative;
+}
+
+.radio__background {
+    z-index: 3;
+    position: absolute;
+    top: 87px;
+    left: 2px;
+}
+
+.radio__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
+
+.radio__text-dis {
+    color:#DDE2E5;
+}
