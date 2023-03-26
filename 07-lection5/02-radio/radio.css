@@ -12,11 +12,6 @@
     margin-right: 12px;
 }
 
-.radio__input:checked + label {
-    background-color: #4c4c4c;
-    color: #ffffff;
-}
-
 .radio__input-check {
     position: relative;
 }
@@ -28,7 +23,7 @@
 }
 
 .radio__state {
-    z-index: 3;
+    z-index: 2;
     position: absolute;
     top: 53px;
     left: 7px;
@@ -39,7 +34,7 @@
 }
 
 .radio__background {
-    z-index: 3;
+    z-index: 2;
     position: absolute;
     top: 87px;
     left: 2px;
@@ -51,9 +46,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #495057;
+    color: var(--grey-4);
 }
 
 .radio__text-dis {
-    color:#DDE2E5;
+    color: var(--grey-2);
 }
