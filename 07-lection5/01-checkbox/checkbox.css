@@ -1,66 +1,55 @@
-.container {
+.checkbox {
     display: flex;
     flex-direction: column;
+    column-gap: 16px;
 }
 
-.checkbox {
-    margin-bottom: 16px;
+.checkbox__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
-.checkbox__custom {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    background-color: var(--white);
-    border: 1px solid var(--grey-2);
-    vertical-align: middle;
-    margin-right: 10px;
-    border-radius: 4px;
-}
-
-.checkbox__input {
+.checkbox__input,
+.checkbox__input-che,
+.checkbox__input-dis {
     display: none;
 }
 
-.checkbox__text,
-.checkbox__text-checked {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-}
-
-.checkbox__custom-checked {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--grey-2);
-    vertical-align: middle;
-    margin-right: 10px;
-    border-radius: 4px;
-}
-
-.checkbox__custom-dis {
+.checkbox__psevdo {
     display: inline-block;
     width: 28px;
     height: 28px;
-    background-color: var(--grey-2);
-    border: 1px solid var(--grey-2);
-    vertical-align: middle;
-    margin-right: 10px;
     border-radius: 4px;
+    border: 1px solid var(--grey-2);
 }
 
-.checkbox__text-dis {
+.checkbox__psevdo-def {
+    background-color: var(--white);
+
+}
+
+.checkbox__psevdo-che {
+    background-color: var(--blue-2);
+    background-image: url('iconka2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkbox__psevdo-dis {
+    background-color: var(--grey-2);
+}
+
+.checkbox__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.checkbox__title-dis {
     color: var(--grey-2);
 }
+

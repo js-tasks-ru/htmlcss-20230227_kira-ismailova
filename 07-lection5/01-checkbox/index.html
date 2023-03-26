@@ -6,27 +6,28 @@
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
-        <div class="container">
-            <label class="checkbox">
-                <input class="checkbox__input" type="checkbox" name="example">
-                <span class="checkbox__custom"></span>
-                <span class="checkbox__text">Default</span>
-            </label>
-            
-            <label class="checkbox">
-                <input class="checkbox__input" type="checkbox" name="example">
-                <span class="checkbox__custom-checked"><svg class="checkbox__icon" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                <span class="checkbox__text-checked">Default</span>
-            </label>
-    
-                <label class="checkbox">
-                    <input class="checkbox__input" type="checkbox" name="example">
-                    <span class="checkbox__custom-dis"></span>
-                    <span class="checkbox__text-dis">Default</span>
-                </label>
+        <label class="checkbox">
+            <div class="checkbox__wrapper">
+            <div class="checkbox__psevdo checkbox__psevdo-def" type="checkbox"></div>
+            <input class="checkbox__input" type="checkbox">
+            <span class="checkbox__title">Default</span>
         </div>
+        </label>
+
+        <label class="checkbox">
+            <div class="checkbox__wrapper">
+            <div class="checkbox__psevdo checkbox__psevdo-che" type="checkbox"></div>
+            <input class="checkbox__input checkbox__input-che" type="checkbox" checked>
+            <span class="checkbox__title">Checked</span>
+        </div>
+        </label>
+
+        <label class="checkbox">
+            <div class="checkbox__wrapper">
+            <div class="checkbox__psevdo checkbox__psevdo-dis" type="checkbox"></div>
+            <input class="checkbox__input checkbox__input-dis" type="checkbox" disabled>
+            <span class="checkbox__title checkbox__title-dis">Disabled</span>
+        </label>
+    </div>
     </body>
 </html>
