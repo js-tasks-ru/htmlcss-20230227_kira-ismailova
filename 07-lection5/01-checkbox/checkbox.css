@@ -1,17 +1,11 @@
-.checkboxes {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-
 .checkbox {
     position: relative;
+    display: inline-block;
 }
 
 .checkbox__wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 12px;
 }
@@ -39,7 +33,8 @@
     color: var(--grey-4);
 }
 
-.checkbox__title-dis {
+.checkbox__input:disabled ~ .checkbox__wrapper  
+.checkbox__title {
     color: var(--grey-2);
 }
 
@@ -50,13 +45,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
-
-}
-
-.checkbox__input:checked ~ .checkbox__wrapper
-.checkbox__control {
     display: block;
     background-image: url('iconka2.svg');
+
 }
 
 .checkbox__input:disabled ~ .checkbox__wrapper 
