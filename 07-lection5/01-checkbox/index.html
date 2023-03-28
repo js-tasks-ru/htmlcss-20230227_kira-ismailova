@@ -6,28 +6,31 @@
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
+        <div class="checkboxes">
         <label class="checkbox">
-            <div class="checkbox__wrapper">
-            <div class="checkbox__psevdo checkbox__psevdo-def" type="checkbox"></div>
             <input class="checkbox__input" type="checkbox">
+            <div class="checkbox__wrapper">
+            <div class="checkbox__control"></div>
             <span class="checkbox__title">Default</span>
         </div>
         </label>
 
         <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" checked>
             <div class="checkbox__wrapper">
-            <div class="checkbox__psevdo checkbox__psevdo-che" type="checkbox"></div>
-            <input class="checkbox__input checkbox__input-che" type="checkbox" checked>
+            <div class="checkbox__control"></div>
             <span class="checkbox__title">Checked</span>
         </div>
         </label>
 
         <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" disabled>
             <div class="checkbox__wrapper">
-            <div class="checkbox__psevdo checkbox__psevdo-dis" type="checkbox"></div>
-            <input class="checkbox__input checkbox__input-dis" type="checkbox" disabled>
+            <div class="checkbox__control"></div>
             <span class="checkbox__title checkbox__title-dis">Disabled</span>
+        </div>
         </label>
     </div>
+</div>
     </body>
 </html>

@@ -1,7 +1,12 @@
-.checkbox {
+.checkboxes {
     display: flex;
     flex-direction: column;
-    column-gap: 16px;
+    gap: 16px;
+}
+
+
+.checkbox {
+    position: relative;
 }
 
 .checkbox__wrapper {
@@ -11,34 +16,18 @@
     gap: 12px;
 }
 
-.checkbox__input,
-.checkbox__input-che,
-.checkbox__input-dis {
-    display: none;
+.checkbox__input {
+    display: block;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
 }
 
-.checkbox__psevdo {
+.checkbox__control {
     display: inline-block;
     width: 28px;
     height: 28px;
     border-radius: 4px;
     border: 1px solid var(--grey-2);
-}
-
-.checkbox__psevdo-def {
-    background-color: var(--white);
-
-}
-
-.checkbox__psevdo-che {
-    background-color: var(--blue-2);
-    background-image: url('iconka2.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.checkbox__psevdo-dis {
-    background-color: var(--grey-2);
 }
 
 .checkbox__title {
@@ -47,9 +36,31 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    color: var(--grey-4);
 }
 
 .checkbox__title-dis {
     color: var(--grey-2);
 }
 
+.checkbox__input:checked ~ .checkbox__wrapper 
+.checkbox__control { 
+    border: 1px solid var(--blue-2);
+    background: var(--blue-2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+
+.checkbox__input:checked ~ .checkbox__wrapper
+.checkbox__control {
+    display: block;
+    background-image: url('iconka2.svg');
+}
+
+.checkbox__input:disabled ~ .checkbox__wrapper 
+.checkbox__control {
+    border: 1px solid var(--grey-2);
+    background: var(--grey-2);
+}
