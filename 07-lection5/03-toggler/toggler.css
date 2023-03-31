@@ -1,15 +1,8 @@
 .toggler {
     color: var(--grey-4);
-    display: inline-block;    
-	height: 28px;    
+    display: inline-block;      
 	position: relative;
 	user-select: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    vertical-align: middle;
 }
 
 .toggler__input {
@@ -64,3 +57,12 @@
     background: var(--grey-3);
 }
 
+
+.toggler__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
+}
