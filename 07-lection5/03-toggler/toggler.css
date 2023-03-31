@@ -24,7 +24,7 @@
 	transition: .2s;
 }
 
-.toggler .toggler__state:before {
+.toggler__state:before {
 	content: '';
 	position: absolute;
 	top: 1px;
@@ -45,7 +45,7 @@
     background: var(--white);
 }
 
-.toggler .toggler__input:checked + .toggler__state:before {
+.toggler__input:checked + .toggler__state:before {
 	transform:translateX(28px);
 }
  
