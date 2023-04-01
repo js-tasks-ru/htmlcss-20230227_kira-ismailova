@@ -8,11 +8,10 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-    
-        <div class="hamburger-menu">
+        <div class="burger-menu">
             <input class="menu__toggle" id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
+            <label class="menu__btn" id="burger-menu-open" for="menu__toggle">
+              <span id="burger-menu-close"></span>
             </label>
             <ul class="menu__box">
               <hr class="menu__hr">
@@ -28,19 +27,23 @@
                 </clipPath>
                 </defs>
                 </svg>
-                <div class="">
-                <p>Dark mode</p>
+                <div class="menu__mode">
+                <p class="menu__text">Dark mode</p>
                 <label class="toggler">
                   <input class="toggler__input" type="checkbox">
                   <span class="toggler__state"></span>
                   <span class="toggler__text">Off</span>
               </label>
                 </div>
-              <li><a class="menu__item" href="#">Главная</a></li>
-              <li><a class="menu__item" href="#">Проекты</a></li>
-              <li><a class="menu__item" href="#">Команда</a></li>
-              <li><a class="menu__item" href="#">Блог</a></li>
-              <li><a class="menu__item" href="#">Контакты</a></li>
+                <hr class="menu__hr">
+                <h4 class="menu__title">Components</h4>
+              <li><a class="menu__item" href="#">Modal</a></li>
+              <li><a class="menu__item" href="#">Tooltip</a></li>
+              <li><a class="menu__item" href="#">Avatar</a></li>
+              <li><a class="menu__item" href="#">Calendar</a></li>
+              <li><a class="menu__item" href="#">Histogram</a></li>
+              <li><a class="menu__item" href="#">Custom form elements</a></li>
+              <li><a class="menu__item menu__item-title" href="#">Main page</a></li>
             </ul>
           </div>
     </body>
