@@ -1,4 +1,4 @@
-.burger-menu {
+.menu__header {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -167,3 +167,5 @@
     line-height: 24px;
     vertical-align: middle;
 }
+
+
