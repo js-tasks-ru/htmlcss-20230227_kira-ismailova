@@ -9,10 +9,15 @@
             html[data-theme-dark] {
                 background: #000;
             }
+        
         </style>
         <script defer src="./theme-changer.js"></script>
     </head>
     <body>
-        <input type="checkbox" id="theme-changer">
-    </body>
+        <label>
+            <input type="checkbox" id="theme-changer" onchange="changeTheme(this.checked)">
+            Включить темную тему
+          </label>
+
+            </body>
 </html>
