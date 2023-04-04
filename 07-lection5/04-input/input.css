@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.input__window {
+.input__control {
     padding-top: 17px;
     padding-bottom: 13px;
     padding-left: 24px;
@@ -20,7 +20,7 @@
     border-radius: 8px;
 }
 
-.input__window::placeholder {
+.input__control::placeholder {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -30,9 +30,9 @@
 }
 
 
-.input__window-error::placeholder,
-.input__window-success::placeholder,
-.input__window-focus::placeholder {
+.input__control_error::placeholder,
+.input_success .input__control::placeholder,
+.input__control:focus::placeholder {
     color: var(--grey-4);
 }
   
@@ -42,29 +42,31 @@
     color: var(--grey-3);
 }
 
-.input__icon-success {
-  position: absolute;
-  top: 37px;
-left: 320px;
+.input__icon {
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    right: 16px;
+    transform: translateY(-50%);
 }
 
-.input__window-focus {
+.input__control:focus {
 border: 1px solid var(--blue-2);
 box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 border-radius: 8px;
 }
 
-.input__window-error {
+.input_error .input__control {
     border: 1px solid var(--red);
 box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
-border-radius: 8px;
+
 }
 
-.input__error {
+.input_error {
     position: relative;
 }
 
-.input__icon-error {
+.input__icon_error {
     position: absolute;
     top: 37px;
     left: 320px;
