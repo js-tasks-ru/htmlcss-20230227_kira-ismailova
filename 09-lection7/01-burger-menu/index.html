@@ -8,43 +8,48 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-        <div class="burger-menu">
-            <input class="menu__toggle" id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" id="burger-menu-open" for="menu__toggle">
-              <span id="burger-menu-close"></span>
-            </label>
-            <ul class="menu__box">
-              <hr class="menu__hr">
-              <svg class="menu__icon" width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_18829_459)">
-                <rect y="1" width="30" height="30" fill="#212429"/>
-                <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
-                <path d="M78 0L110 32H78V0Z" fill="#212429"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_18829_459">
-                <rect width="110" height="32" fill="white"/>
-                </clipPath>
-                </defs>
-                </svg>
-                <div class="menu__mode">
-                <p class="menu__text">Dark mode</p>
-                <label class="toggler">
-                  <input class="toggler__input" type="checkbox">
-                  <span class="toggler__state"></span>
-                  <span class="toggler__text">Off</span>
-              </label>
-                </div>
-                <hr class="menu__hr">
-                <h4 class="menu__title">Components</h4>
-              <li><a class="menu__item" href="#">Modal</a></li>
-              <li><a class="menu__item" href="#">Tooltip</a></li>
-              <li><a class="menu__item" href="#">Avatar</a></li>
-              <li><a class="menu__item" href="#">Calendar</a></li>
-              <li><a class="menu__item" href="#">Histogram</a></li>
-              <li><a class="menu__item" href="#">Custom form elements</a></li>
-              <li><a class="menu__item menu__item-title" href="#">Main page</a></li>
-            </ul>
-          </div>
+      <div class="burger">
+        <input class="burger__toggle" id="burger__toggle" type="checkbox" />
+        <label class="burger__btn" for="burger__toggle">
+          <span class="burger__control"></span>
+        </label>
+        <div class="burger__box">
+          <svg class="burger__icon" width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_18829_459)">
+            <rect y="1" width="30" height="30" fill="#212429"/>
+            <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+            <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_18829_459">
+            <rect width="110" height="32" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+            <hr class="burger__hr">
+            <div class="burger__mode">
+            <p class="burger__title">Dark mode</p>
+            <label class="burger__checkbox">
+              <input class="burger__input" type="checkbox">
+              <span class="burger__state"></span>
+              <span class="burger__text">Off</span>
+          </label>
+        </div>
+        <hr class="burger__hr">
+        <div>
+          <h4 class="burger__title_list">Components</h4>
+          <ul class="burger__list">
+            <li><a class="burger__item" href="#">Modal</a></li>
+            <li><a class="burger__item" href="#">Tooltip</a></li>
+            <li><a class="burger__item" href="#">Avatar</a></li>
+            <li><a class="burger__item" href="#">Calendar</a></li>
+            <li><a class="burger__item" href="#">Histogram</a></li>
+            <li><a class="burger__item" href="#">Custom form elements</a></li>
+            <li><a class="burger__item burger__item_title" href="#">Main page</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+
     </body>
 </html>
