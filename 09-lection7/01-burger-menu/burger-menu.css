@@ -20,9 +20,9 @@
     z-index: 1;
 }
 
-.burger__btn > span,
-.burger__btn > span::before,
-.burger__btn > span::after {
+.burger__btn > .burger__control,
+.burger__btn > .burger__control::before,
+.burger__btn > .burger__control::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -53,6 +53,7 @@
 .burger__toggle:checked ~ .burger__box {
     visibility: visible;
     left: 0;
+    transition: 0.8s;
 }
 
 .burger__box {
@@ -167,6 +168,6 @@
   color: #D84910;
 }
 
-.burger__item_title {
+.burger__item_home-link {
   margin-top: 72px;
 }
