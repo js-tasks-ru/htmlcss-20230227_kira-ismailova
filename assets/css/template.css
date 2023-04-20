@@ -1,0 +1,43 @@
+
+.body { 
+    background-color: #F8F9FA;
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 30% 1fr 10%;
+    height: 100vh;
+    margin: 0;
+    gap: 36px;
+}
+
+.header {
+  grid-area: header;
+  max-width: 1440px;
+  height: 82px;
+  background-color: #fff;
+}
+
+.mainNav {
+  grid-area: nav; 
+  background-color: #F8F9FA;
+}
+
+.article {
+  grid-area: article; 
+  max-width: 825px;
+  height: 746px;
+  background-color: #fff;
+}
+
+.siteAds {
+  grid-area: ads; 
+  background: #F8F9FA;
+}
+
+.footer {
+grid-area: footer;
+background: #F8F9FA;
+}
