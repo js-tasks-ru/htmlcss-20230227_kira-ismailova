@@ -51,37 +51,3 @@
         text-transform: uppercase;
     }
 
-    .burger__list {
-        list-style-type: none;
-        text-align: left;
-        padding: 16px;
-    }
-
-    .burger__title_list {
-        padding-left: 16px;
-        text-align: left;
-    }
-
-    .burger__item {
-        padding-bottom: 12px;
-        display: block;
-        font-size: 16px;
-        line-height: 24px;
-        color: var(--black);
-        text-decoration: none;
-        text-align: left;
-    }
-
-    .burger__item:active {
-        color: #D84910;
-    }
-
-    .burger__item_home-link {
-        margin-top: 72px;
-    }
-
-    .burger__title {
-        font-size: 16px;
-        line-height: 24px;
-        color: var(--grey-4);
-    }
