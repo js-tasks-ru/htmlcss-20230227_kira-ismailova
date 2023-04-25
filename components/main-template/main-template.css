@@ -1,8 +1,6 @@
 
 
-.main_template {
-    grid-area: article; 
-    max-width: 825px;
-    height: 746px;
+.main-template {
+    max-width: 780px;
     background-color: var(--white);
 }

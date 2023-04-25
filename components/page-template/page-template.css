@@ -1,4 +1,4 @@
-.body { 
+.page_inner { 
     background-color: var(--grey-1);
     display: grid;
     grid-template-areas: 
@@ -11,3 +11,26 @@
     margin: 0;
     gap: 36px;
 }
+
+.page__header {
+    grid-area: header;
+}
+
+.page__main {
+    grid-area: article; 
+
+}
+
+.page__burger {
+    grid-area: nav; 
+}
+
+.page__siteAds {
+    grid-area: ads; 
+
+}
+
+.page__footer {
+grid-area: footer;
+}
+

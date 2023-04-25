@@ -1,11 +1,6 @@
 
     .footer_template {
-        grid-area: footer;
         background: var(--grey-1);
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
-        letter-spacing: 0.04em;
         text-transform: uppercase;
     }
 

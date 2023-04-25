@@ -1,7 +1,6 @@
 
 
-.nav {
-    grid-area: nav; 
+.burger {
     background-color: var(--grey-1);
     font-family: 'Inter';
     font-style: normal;
