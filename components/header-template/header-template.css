@@ -1,0 +1,7 @@
+
+.header {
+    grid-area: header;
+    max-width: 1440px;
+    height: 82px;
+    background-color: var(--white);
+}
