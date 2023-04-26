@@ -1,15 +1,12 @@
 @import '../fonts/fonts.css';
+@import 'page.css';
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/nav/nav.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../09-lection7/01-burger-menu/burger-menu.css';
-@import '../../components/page-template/page-template.css';
-@import '../../components/header-template/header-template.css';
-@import '../../components/nav-template/nav-template.css';
-@import '../../components/main-template/main-template.css';
-@import '../../components/ads-template/ads-template.css';
-@import '../../components/footer-template/footer-template.css';
+
 
 :root {
     --white: #ffffff;

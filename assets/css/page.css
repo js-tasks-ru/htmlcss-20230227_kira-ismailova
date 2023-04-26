@@ -14,11 +14,13 @@
 
 .page__header {
     grid-area: header;
+    background-color: var(--white);
 }
 
 .page__main {
     grid-area: article; 
-
+    max-width: 780px;
+    background-color: var(--white);
 }
 
 .page__burger {
@@ -27,10 +29,16 @@
 
 .page__siteAds {
     grid-area: ads; 
-
+    background: var(--grey-1);
 }
 
 .page__footer {
 grid-area: footer;
+background: var(--grey-1);
 }
+
+.footer__text {
+    text-transform: uppercase;
+}
+
 
